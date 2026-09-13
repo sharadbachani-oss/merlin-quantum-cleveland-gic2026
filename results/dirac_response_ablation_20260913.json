@@ -1,0 +1,67 @@
+{
+ "KRAS_G12C": {
+  "dirac_auc": 0.5747863247863247,
+  "dirac_p": 0.10494752623688156,
+  "exact_auc": 0.5467032967032966,
+  "exact_p": 0.22338830584707647,
+  "cosine": 0.997304922652493,
+  "best_floor": "euclid",
+  "best_floor_auc": 0.726,
+  "delta_vs_floor": -0.15121367521367524,
+  "n_pocket": 28,
+  "n_keep": 145,
+  "result_file": "RESULT_response_20260901_114112.json"
+ },
+ "BCR_ABL1": {
+  "dirac_auc": 0.510904255319149,
+  "dirac_p": 0.4352823588205897,
+  "exact_auc": 0.4360372340425532,
+  "exact_p": 0.8675662168915542,
+  "cosine": 0.9683893363413804,
+  "best_floor": "hydro_x_bur",
+  "best_floor_auc": 0.818,
+  "delta_vs_floor": -0.307095744680851,
+  "n_pocket": 32,
+  "n_keep": 267,
+  "result_file": "RESULT_response_BCR_ABL1_20260901_144131.json"
+ },
+ "CDK2": {
+  "dirac_auc": 0.5338645418326693,
+  "dirac_p": 0.28585707146426786,
+  "exact_auc": 0.365321323402044,
+  "exact_p": 0.9885057471264368,
+  "cosine": 0.9649014271318855,
+  "best_floor": "euclid",
+  "best_floor_auc": 0.781,
+  "delta_vs_floor": -0.24713545816733073,
+  "n_pocket": 23,
+  "n_keep": 274,
+  "result_file": "RESULT_response_CDK2_20260901_141126.json"
+ },
+ "GLUCOKINASE": {
+  "dirac_auc": 0.5564343163538874,
+  "dirac_p": 0.11544227886056972,
+  "exact_auc": 0.4762064343163539,
+  "exact_p": 0.6771614192903548,
+  "cosine": 0.9942629482243034,
+  "best_floor": "closeness",
+  "best_floor_auc": 0.835,
+  "delta_vs_floor": -0.27856568364611256,
+  "n_pocket": 40,
+  "n_keep": 413,
+  "result_file": "RESULT_response_GLUCOKINASE_20260901_140512.json"
+ },
+ "CARDIAC_MYOSIN": {
+  "dirac_auc": 0.4062474645030426,
+  "dirac_p": 0.9535232383808095,
+  "exact_auc": 0.4057606490872211,
+  "exact_p": 0.9480259870064968,
+  "cosine": 0.9267098667594567,
+  "best_floor": "closeness",
+  "best_floor_auc": 0.828,
+  "delta_vs_floor": -0.42175253549695735,
+  "n_pocket": 29,
+  "n_keep": 454,
+  "result_file": "RESULT_response_CARDIAC_MYOSIN_20260901_161116.json"
+ }
+}

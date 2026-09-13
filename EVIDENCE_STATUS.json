@@ -1,0 +1,9 @@
+{
+  "track": "Cleveland",
+  "status": "HARDWARE_RESPONSE_RECORDED_APPLICATION_AND_MAP_GATES_OPEN",
+  "new_hardware_advantage_demonstrated": false,
+  "receipt_hashes": {
+    "results/headlines.json": "8fd9d4ead65fcedaa26bae85caa7253889676716835ffc065de4b5a06fab8eff"
+  },
+  "missing_referenced_receipts": []
+}

@@ -1,0 +1,24 @@
+{
+  "version": 6,
+  "track": "Cleveland",
+  "status": "PROPOSED_NOT_FLOWN",
+  "observable": "declared connected contact response, followed by separately validated molecular ranking",
+  "next": "Complete four IBM residue maps with null/coupling controls and independent replication; validate molecular bridge.",
+  "baselines": [
+    "same-operator dense small anchors",
+    "converged MPS or Heisenberg lightcone calculation",
+    "independent molecular or contact-model baseline and dressed-sector ablation"
+  ],
+  "required_controls": [
+    "same instance and observable",
+    "null perturbation",
+    "coupling/encoding ablation",
+    "independent repeat"
+  ],
+  "acceptance": "quantum upper confidence bound < best classical lower bound at identical accuracy and total cost; application mapping separately validated",
+  "backend": null,
+  "layout": null,
+  "job_id": null,
+  "quoted_cost": null,
+  "new_hardware_advantage_demonstrated": false
+}

@@ -1,0 +1,199 @@
+{
+  "card": "DIRAC CLEVELAND LEFTOVER / WRAP",
+  "date": "2026-09-11",
+  "track": "cleveland",
+  "operator": "V = mu* D; kinetic A6 = Dirac bath",
+  "industrial_object": "geometry-as-Hamiltonian leftover on the distal graph, not AQT/IBM C",
+  "graphs": {
+    "cleveland_geom": {
+      "graph": "cleveland_geom",
+      "extra_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "series": {
+        "1": {
+          "T": 1.0,
+          "mean_E": -2.006300245362116,
+          "leftover_even_zz": 0.038550870884438426,
+          "leftover_omega": 0.463134137455698,
+          "leftover_even_parity": 0.03807907200635774,
+          "P_even_zz": 0.9614491291155616,
+          "P_omega": 0.536865862544302,
+          "P_even_parity": 0.9619209279936423
+        },
+        "2": {
+          "T": 0.5,
+          "mean_E": -2.700521433291188,
+          "leftover_even_zz": 0.0005434876006951139,
+          "leftover_omega": 0.23131910565942682,
+          "leftover_even_parity": 0.0005434214229433909,
+          "P_even_zz": 0.9994565123993049,
+          "P_omega": 0.7686808943405732,
+          "P_even_parity": 0.9994565785770566
+        },
+        "3": {
+          "T": 0.3333333333333333,
+          "mean_E": -2.895935130618421,
+          "leftover_even_zz": 8.787526090014985e-06,
+          "leftover_omega": 0.09441350115309877,
+          "leftover_even_parity": 8.787517069230866e-06,
+          "P_even_zz": 0.99999121247391,
+          "P_omega": 0.9055864988469012,
+          "P_even_parity": 0.9999912124829308
+        },
+        "4": {
+          "T": 0.25,
+          "mean_E": -2.962721942091181,
+          "leftover_even_zz": 1.5894215954492807e-07,
+          "leftover_omega": 0.03594888528592943,
+          "leftover_even_parity": 1.5894215832368275e-07,
+          "P_even_zz": 0.9999998410578405,
+          "P_omega": 0.9640511147140706,
+          "P_even_parity": 0.9999998410578417
+        }
+      },
+      "leftover_even_zz": [
+        0.038550870884438426,
+        0.0005434876006951139,
+        8.787526090014985e-06,
+        1.5894215954492807e-07
+      ],
+      "leftover_omega": [
+        0.463134137455698,
+        0.23131910565942682,
+        0.09441350115309877,
+        0.03594888528592943
+      ],
+      "wrap_closes": true,
+      "dL_even_zz": 0.03855071194227888
+    },
+    "hex_W": {
+      "graph": "hex_W",
+      "extra_edges": [],
+      "series": {
+        "1": {
+          "T": 1.0,
+          "mean_E": 0.22762401742348018,
+          "leftover_even_zz": 0.0568503979056717,
+          "leftover_omega": 0.5119329511129956,
+          "leftover_even_parity": 0.05575212897887638,
+          "P_even_zz": 0.9431496020943283,
+          "P_omega": 0.48806704888700436,
+          "P_even_parity": 0.9442478710211236
+        },
+        "2": {
+          "T": 0.5,
+          "mean_E": 0.0045711566924435225,
+          "leftover_even_zz": 0.001163566071784805,
+          "leftover_omega": 0.5002424472013558,
+          "leftover_even_parity": 0.001163114601322457,
+          "P_even_zz": 0.9988364339282152,
+          "P_omega": 0.4997575527986442,
+          "P_even_parity": 0.9988368853986775
+        },
+        "3": {
+          "T": 0.3333333333333333,
+          "mean_E": 9.009376922040695e-05,
+          "leftover_even_zz": 2.2941663002762347e-05,
+          "leftover_omega": 0.5000047795277456,
+          "leftover_even_parity": 2.2941487561434215e-05,
+          "P_even_zz": 0.9999770583369972,
+          "P_omega": 0.4999952204722545,
+          "P_even_parity": 0.9999770585124386
+        },
+        "4": {
+          "T": 0.25,
+          "mean_E": 1.77501260035713e-06,
+          "leftover_even_zz": 4.5199625375857977e-07,
+          "leftover_omega": 0.5000000941658919,
+          "leftover_even_parity": 4.5199618570190836e-07,
+          "P_even_zz": 0.9999995480037462,
+          "P_omega": 0.49999990583410814,
+          "P_even_parity": 0.9999995480038143
+        }
+      },
+      "leftover_even_zz": [
+        0.0568503979056717,
+        0.001163566071784805,
+        2.2941663002762347e-05,
+        4.5199625375857977e-07
+      ],
+      "leftover_omega": [
+        0.5119329511129956,
+        0.5002424472013558,
+        0.5000047795277456,
+        0.5000000941658919
+      ],
+      "wrap_closes": true,
+      "dL_even_zz": 0.05684994590941794
+    }
+  },
+  "local_gates": {
+    "named_H_leftover_drops": true,
+    "ring_wraps": true,
+    "star_explodes": true,
+    "null_local": true,
+    "eon_membrane_ranks": true,
+    "eon_certified_beats_deg2": true,
+    "eon_deg2_not_certified": true,
+    "vw_jam_closes": true,
+    "vw_jam_held_at_wrap": true,
+    "cleveland_geom_moves": true,
+    "airbus_parity_filter": true,
+    "airbus_orbit_held": true,
+    "continuation_misses_schedule": true,
+    "wrap_before_cone": true,
+    "not_a_kernel": true,
+    "not_an_ibm_circuit": true,
+    "kinetic_A6_is_the_bath": true
+  },
+  "status": "SHARED_DIRAC_CARD_FLOWN_NO_CROSSING",
+  "job_ids": [
+    "6aa3261408442f441bbb6f2d",
+    "6aa3262008442f441bbb6f2e",
+    "6aa3263508442f441bbb6f2f",
+    "6aa3264a08442f441bbb6f30"
+  ],
+  "job_id": null,
+  "new_hardware_advantage_demonstrated": false,
+  "ibm_abandoned": [
+    "dahgvg39k43c73aepmjg",
+    "dahgrjhhvn6c73cs0kng"
+  ],
+  "ibm_fail_locked": "dagfiegmhr3c73e53gvg",
+  "honesty": {
+    "invented_ids": false,
+    "not_a_port_of_ibm_circuits": true,
+    "ibm_kingston_not_resubmitted": true,
+    "ibm_fez_wrap_not_resubmitted": true,
+    "hsbc_fail_not_regraded": true,
+    "aqt_not_relabeled_dirac": true,
+    "jennings_ns_not_claimed": true,
+    "he_wall_stays_fail": true,
+    "dirac_fly": "blocked_or_not_yet; local leftover is the executed object"
+  },
+  "full_W_card": {
+    "receipt": "../../results/dirac_full_W_flight.json",
+    "status": "FLOWN",
+    "new_hardware_advantage_demonstrated": false,
+    "pf_vacuum_seen": false,
+    "job_ids": [
+      "6aa3a53b08442f441bbb6f34",
+      "6aa3a58308442f441bbb6f35",
+      "6aa3a5d108442f441bbb6f36",
+      "6aa3a66b08442f441bbb6f37"
+    ],
+    "note": "64-cell continuous W; not this leftover 6-bit card. Rayleigh stayed near -0.9, V-octet collapse."
+  }
+}

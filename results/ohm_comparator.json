@@ -1,0 +1,92 @@
+{
+ "KRAS_G12C": {
+  "ohm_alpha0.85": {
+   "auc": 0.698,
+   "p": 0.0005
+  },
+  "ohm_alpha0.95": {
+   "auc": 0.685,
+   "p": 0.002
+  },
+  "best_quantum_metric": {
+   "metric": "M_res",
+   "auc": 0.625
+  },
+  "best_floor": {
+   "name": "euclid",
+   "auc": 0.726
+  }
+ },
+ "BCR_ABL1": {
+  "ohm_alpha0.85": {
+   "auc": 0.513,
+   "p": 0.4178
+  },
+  "ohm_alpha0.95": {
+   "auc": 0.507,
+   "p": 0.4868
+  },
+  "best_quantum_metric": {
+   "metric": "M_sus",
+   "auc": 0.804
+  },
+  "best_floor": {
+   "name": "hydro_x_bur",
+   "auc": 0.818
+  }
+ },
+ "CARDIAC_MYOSIN": {
+  "ohm_alpha0.85": {
+   "auc": 0.61,
+   "p": 0.0115
+  },
+  "ohm_alpha0.95": {
+   "auc": 0.62,
+   "p": 0.008
+  },
+  "best_quantum_metric": {
+   "metric": "M_res",
+   "auc": 0.708
+  },
+  "best_floor": {
+   "name": "closeness",
+   "auc": 0.828
+  }
+ },
+ "GLUCOKINASE": {
+  "ohm_alpha0.85": {
+   "auc": 0.769,
+   "p": 0.0005
+  },
+  "ohm_alpha0.95": {
+   "auc": 0.791,
+   "p": 0.0005
+  },
+  "best_quantum_metric": {
+   "metric": "M_2x_chem",
+   "auc": 0.886
+  },
+  "best_floor": {
+   "name": "closeness",
+   "auc": 0.835
+  }
+ },
+ "CDK2": {
+  "ohm_alpha0.85": {
+   "auc": 0.754,
+   "p": 0.0005
+  },
+  "ohm_alpha0.95": {
+   "auc": 0.809,
+   "p": 0.0005
+  },
+  "best_quantum_metric": {
+   "metric": "M_res",
+   "auc": 0.868
+  },
+  "best_floor": {
+   "name": "euclid",
+   "auc": 0.781
+  }
+ }
+}

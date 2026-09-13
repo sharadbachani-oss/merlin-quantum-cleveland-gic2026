@@ -1,0 +1,28 @@
+{
+  "recovered": "2026-09-08",
+  "method": "IBM Runtime job.result() evs matched RESULT JSON evs at 1e-9; not guessed",
+  "R1": {
+    "artifact": "../cleaveland/v2/RESULT_est_20260901_014249.json",
+    "backend": "ibm_marrakesh",
+    "job_id": "daaui7bvpcac73dd29r0",
+    "created": "2026-09-01 00:50:37 +04",
+    "finished": "2026-08-31 21:42:50 UTC"
+  },
+  "R2": {
+    "artifact": "../cleaveland/v2/RESULT_residue_K2_20260901_104204.json",
+    "backend": "ibm_fez",
+    "job_id": "dab6vi34clkc73fij1ig",
+    "created": "2026-09-01 10:25:12 +04",
+    "finished": "2026-09-01 06:42:04 UTC"
+  },
+  "R3": {
+    "artifact": "../cleaveland/v2/RESULT_residue_K6_20260901_131159.json",
+    "backend": "ibm_fez",
+    "job_id": "dab7i5mrrl7c7386gfh0",
+    "created": "2026-09-01 11:04:54 +04",
+    "finished": "2026-09-01 09:11:59 UTC"
+  },
+  "also_matched_not_headline": {
+    "RESULT_est_20260901_101409.json": "dab6q3jvpcac73dddf5g"
+  }
+}

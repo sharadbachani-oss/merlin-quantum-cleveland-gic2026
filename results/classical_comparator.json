@@ -1,0 +1,55 @@
+{
+ "card": "classical comparator arm for the retarded contact response",
+ "fidelity_target": 0.999,
+ "rows": [
+  {
+   "N": 8,
+   "edges": 11,
+   "E0_native": -3.3569000341192217,
+   "chi_cap": 16,
+   "chi_by_ordering": {
+    "sequence": 16,
+    "pair_adjacent": 14
+   },
+   "chi_best_ordering": 14,
+   "classical_cost_proxy": 1568.0,
+   "quantum_logical_cx": 88
+  },
+  {
+   "N": 10,
+   "edges": 14,
+   "E0_native": -4.196105809374498,
+   "chi_cap": 32,
+   "chi_by_ordering": {
+    "sequence": 30,
+    "pair_adjacent": 25
+   },
+   "chi_best_ordering": 25,
+   "classical_cost_proxy": 6250.0,
+   "quantum_logical_cx": 112
+  },
+  {
+   "N": 12,
+   "edges": 17,
+   "E0_native": -5.035225289089573,
+   "chi_cap": 64,
+   "chi_by_ordering": {
+    "sequence": 57,
+    "pair_adjacent": 46
+   },
+   "chi_best_ordering": 46,
+   "classical_cost_proxy": 25392.0,
+   "quantum_logical_cx": 136
+  }
+ ],
+ "chi_growth_per_two_residues": [
+  1.7857142857142858,
+  1.84
+ ],
+ "cap_growth": [
+  2.0,
+  2.0
+ ],
+ "scope": "measured cost for this instance family, observable, accuracy target and the orderings searched; a credible classical baseline and censored benchmark observation, not a complexity proof",
+ "quantum_cost_rule": "8 logical CX per evolved pair, constant in evolution time; physical routing separate"
+}

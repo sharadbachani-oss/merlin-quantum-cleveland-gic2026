@@ -1,0 +1,49 @@
+{
+ "operator": {
+  "N": 12,
+  "edges": 17,
+  "kappa": 3.927050983124843,
+  "E0": -1.1073325103611027
+ },
+ "observable": "retarded chi_ab(t) = -2 Im <Z_a(t) Z_b>",
+ "replaces": "equal-time connected covariance",
+ "graph_distance_used": true,
+ "rows": [
+  {
+   "graph_d": 1,
+   "site": 1,
+   "C_equaltime": 0.9534981706907233,
+   "chi_at_0": 0.0,
+   "onset_t": 0.2,
+   "chi_peak": 0.015250701985732312
+  },
+  {
+   "graph_d": 2,
+   "site": 2,
+   "C_equaltime": 0.953055489752359,
+   "chi_at_0": 0.0,
+   "onset_t": 0.30000000000000004,
+   "chi_peak": 0.0023063865411632094
+  },
+  {
+   "graph_d": 3,
+   "site": 3,
+   "C_equaltime": 0.9530487922148885,
+   "chi_at_0": 0.0,
+   "onset_t": 1.2000000000000002,
+   "chi_peak": 0.0015399382853560097
+  },
+  {
+   "graph_d": 4,
+   "site": 9,
+   "C_equaltime": 0.9530411775029358,
+   "chi_at_0": 0.0,
+   "onset_t": 1.5,
+   "chi_peak": 0.001914165740747996
+  }
+ ],
+ "discrimination": {
+  "covariance_rel_spread_pct": 0.04794502000368519,
+  "commutator_dynamic_range": 9.903450112746945
+ }
+}

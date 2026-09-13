@@ -1,0 +1,360 @@
+{
+  "card": "CLEVELAND CATALYTIC LEFTOVER S_a(\u03c9)",
+  "generated": "2026-09-11T00:18:14",
+  "status": "LOCAL_PROOF",
+  "job_id": null,
+  "new_hardware_advantage_demonstrated": false,
+  "operator": "H = kappa D - A6",
+  "kappa": 3.927050983124843,
+  "industrial_object": "leftover S_a(\u03c9) of the catalytic contact after X-quench",
+  "local": {
+    "leftover_k": [
+      1.401139875404815,
+      0.6087470010809188,
+      0.008321957770011879,
+      0.9206028686803858,
+      1.3321390129003294,
+      0.3121581831701805,
+      0.12630179777976602,
+      1.1874049927635189,
+      1.1384829331506765
+    ],
+    "zz_quenched_pair": [
+      -0.7005699377024079,
+      0.09182293662148816,
+      0.7088918954724189,
+      -0.22003293097797877,
+      -0.6315690751979223,
+      0.38841175453222654,
+      0.574268139922641,
+      -0.4868350550611119,
+      -0.43791299544826945
+    ],
+    "zz_held_distal": [
+      0.7005699377024072,
+      0.7005699377024074,
+      0.700569937702408,
+      0.7005699377024075,
+      0.7005699377024068,
+      0.7005699377024073,
+      0.7005699377024082,
+      0.7005699377024076,
+      0.7005699377024065
+    ],
+    "connected_0_2": [
+      1.8041124150158897e-16,
+      1.1102230246251615e-16,
+      -3.747002708109905e-16,
+      -7.494005416219803e-16,
+      3.9551695252271236e-16,
+      8.604228440844957e-16,
+      -8.673617379884041e-16,
+      -1.0963452368173423e-15,
+      1.0408340855860839e-15
+    ],
+    "C_star": 0.700569937702407,
+    "distal_pair_held": true,
+    "inter_pair_structurally_zero": true,
+    "spectrum": {
+      "freqs": [
+        0.0,
+        0.1111111111111111,
+        0.2222222222222222,
+        0.3333333333333333,
+        0.4444444444444444
+      ],
+      "power": [
+        0.16981054626422942,
+        0.0782504599745696,
+        1.6544752954973296,
+        1.423365193640134,
+        0.08338007019639425
+      ],
+      "principal_cyc_per_step": 0.2222222222222222,
+      "principal_power": 1.6544752954973296,
+      "total_power": 3.2394710193084273
+    },
+    "imag_time_G": [
+      -0.7005699377024078,
+      0.4030384108579764,
+      0.6505007311887328,
+      0.6914884943185962,
+      0.6988886096584958,
+      0.7002573927594261,
+      0.700511793816458,
+      0.7005591194415652,
+      0.7005679248017109
+    ],
+    "continuation_cyc_per_step": 1.4157653881407584,
+    "continuation_misses_realtime": true,
+    "allosteric": 0,
+    "catalytic": 2,
+    "k": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "dt": 0.3
+  },
+  "retrieve": {
+    "ibm": {
+      "available": true,
+      "examined": 40,
+      "leftover_match": null,
+      "rejects": [
+        {
+          "job": "dagfllni3e6s738mc3k0",
+          "status": "QUEUED",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "dagfiegmhr3c73e53gvg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daba21jvpcac73ddh9h0",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "dab7i5mrrl7c7386gfh0",
+          "status": "DONE",
+          "reason": "R3 equal-time C(28-7) \u2014 not leftover S_a"
+        },
+        {
+          "job": "dab6vi34clkc73fij1ig",
+          "status": "DONE",
+          "reason": "R2 equal-time C \u2014 not leftover S_a"
+        },
+        {
+          "job": "dab6therrl7c7386flo0",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "dab6q3jvpcac73dddf5g",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daaui7bvpcac73dd29r0",
+          "status": "DONE",
+          "reason": "R1 equal-time C \u2014 not leftover S_a"
+        },
+        {
+          "job": "daauh2rvpcac73dd28d0",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daaufa34clkc73fi79og",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daauekb4clkc73fi78s0",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daauddbvpcac73dd2430",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daaucejvpcac73dd232g",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daatu7j4clkc73fi68vg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daa9pn4e74ec73akj9i0",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daa9fnerbfbs73cifcjg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daa9fgurbfbs73cifcc0",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daa9f09qtnsc73d2db5g",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daa9do6rbfbs73cifa80",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daa3osce74ec73akcmb0",
+          "status": "CANCELLED",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daa1akce74ec73ak9qcg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daa19lerbfbs73ci66eg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daa0hburbfbs73ci5ai0",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daa0dq6rbfbs73ci56bg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daa0bqce74ec73ak8mgg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "daa0bc1qtnsc73d231v0",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9vgsmrbfbs73ci44d0",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9vdfmrbfbs73ci40ng",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9vblkjbipc73ffaio0",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9uoierbfbs73ci3aq0",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9ujnkjbipc73ff9ppg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9m5purbfbs73chqglg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9m5berbfbs73chqg80",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9lqeerbfbs73chq63g",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9lp8pqtnsc73d1o5gg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9llqerbfbs73chq1og",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9l9rkjbipc73ff0aqg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9l3t1qtnsc73d1nhd0",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9l2t9qtnsc73d1nfrg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        },
+        {
+          "job": "da9krq4jbipc73fevsfg",
+          "status": "DONE",
+          "reason": "unlabeled \u2014 not claimed as leftover S_a"
+        }
+      ],
+      "error": null
+    },
+    "aquila": {
+      "tasks": [
+        "aws:quera:qpu:aquila-5879-qjob-6a9a83b2e026787d1e5b06d0",
+        "aws:quera:qpu:aquila-5879-qjob-6a9a83b3e026787d1e5b06d3"
+      ],
+      "leftover_series": false,
+      "note": "T0 7/7 equal-time geometry-as-H, not S_a(\u03c9)"
+    },
+    "ionq": {
+      "status": "UNRUN",
+      "cancelled": [
+        "openquantum:ionq:qpu:forte-1-5879-qjob-6a95dfa520aa7d3794bb67c7",
+        "openquantum:ionq:qpu:forte-1-5879-qjob-6a95e1c720aa7d3794bb67d4",
+        "openquantum:ionq:qpu:forte-1-5879-qjob-6a95e3e720aa7d3794bb67ef"
+      ],
+      "leftover_series": false
+    },
+    "aqt": {
+      "job": "openquantum:aqt:qpu:ibex-q1-5879-qjob-6a99b67ae026787d1e5ae3d5",
+      "verdict": "FAIL",
+      "leftover_series": false,
+      "do_not_call_pass": true
+    },
+    "four_ibm_maps": {
+      "status": "UNRUN",
+      "leftover_series": false
+    },
+    "leftover_job_id": null
+  },
+  "honesty": {
+    "no_affinity_claim": true,
+    "ionq_unrun": true,
+    "aqt_fail": true,
+    "four_ibm_maps_unrun": true,
+    "r3_is_not_leftover": true,
+    "cone_99q_is_dimension_not_measured_death": true,
+    "invented_ids": false
+  },
+  "next_flight": {
+    "command": "retrieve-only; fly leftover S_a on one IBM map or Aquila after MPS referee",
+    "refuse": [
+      "IonQ cancelled PENDING",
+      "openquantum:aqt:qpu:ibex-q1-5879-qjob-6a99b67ae026787d1e5ae3d5",
+      "four IBM K=6 maps"
+    ]
+  }
+}
