@@ -26,7 +26,7 @@ Our approach computes that propagation as **real-time many-body dynamics** on qu
 | resource | status |
 |---|---|
 | Structures | RCSB apo/holo pairs of Table 1 (4OBE/6OIM, 1OPL/5MO4, 5TBY/6C1H, 1V4T-class glucokinase, 1HCL-class CDK2) and 1NKP — all public |
-| Gate-model hardware | IBM Heron (156q) via IBM Quantum Startup Program (applied); ~4 maps at K=6 per monthly quota; each map 1 job, ≤ 60 min QPU |
+| Gate-model hardware | IBM Heron (156q) via IBM Quantum Startup Program (applied); ~4 maps at K=6 per monthly quota, each 1 job ≤ 60 min QPU; the Phase-2 depth ladder costs 160 circuits and 1.31 M shots per measurement group (five targets × two probe signs × eight times × two batches × 8,192 shots) before controls and mitigation |
 | Photonic | QCi Dirac-3, unmetered allocation; 5 targets already run |
 | Neutral atom | QuEra Aquila via Braket, chassis frozen; ~660 credits per lane |
 | Classical | 32-core workstation for exact light-cone anchors, 2,000-trial permutation statistics, Ohm-style comparator |
