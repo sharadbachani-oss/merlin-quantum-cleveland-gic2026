@@ -1,0 +1,9 @@
+{
+ "worst": 2.220446049250313e-16,
+ "nonzero_pairs": 4,
+ "passed": true,
+ "baselines": {
+  "collective_auc": 0.637057387057387,
+  "m_res_auc": 0.6227106227106227
+ }
+}
