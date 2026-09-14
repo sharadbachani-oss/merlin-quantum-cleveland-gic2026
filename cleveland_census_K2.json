@@ -1,0 +1,107 @@
+{
+ "K": 2,
+ "pair": [
+  28,
+  7
+ ],
+ "budget": 200000000,
+ "gates": 460,
+ "results": {
+  "3e-05": {
+   "diverged": false,
+   "C": 0.0,
+   "per_operator": {
+    "Zi": {
+     "status": "converged",
+     "peak_terms": 202,
+     "final_terms": 202,
+     "gates_total": 460,
+     "seconds": 0.09817075729370117
+    },
+    "Za": {
+     "status": "converged",
+     "peak_terms": 14,
+     "final_terms": 14,
+     "gates_total": 460,
+     "seconds": 0.06328701972961426
+    },
+    "ZiZa": {
+     "status": "converged",
+     "peak_terms": 1653,
+     "final_terms": 1653,
+     "gates_total": 460,
+     "seconds": 0.12492537498474121
+    }
+   },
+   "ev": {
+    "Zi": 0.477911776029078,
+    "Za": -0.7115934475171158,
+    "ZiZa": -0.3400788883135593
+   }
+  },
+  "1e-05": {
+   "diverged": false,
+   "C": 0.0,
+   "per_operator": {
+    "Zi": {
+     "status": "converged",
+     "peak_terms": 234,
+     "final_terms": 234,
+     "gates_total": 460,
+     "seconds": 0.06027579307556152
+    },
+    "Za": {
+     "status": "converged",
+     "peak_terms": 14,
+     "final_terms": 14,
+     "gates_total": 460,
+     "seconds": 0.0397181510925293
+    },
+    "ZiZa": {
+     "status": "converged",
+     "peak_terms": 2073,
+     "final_terms": 2073,
+     "gates_total": 460,
+     "seconds": 0.15181660652160645
+    }
+   },
+   "ev": {
+    "Zi": 0.477911776029078,
+    "Za": -0.7115934475171158,
+    "ZiZa": -0.3400788883135593
+   }
+  },
+  "0": {
+   "diverged": false,
+   "C": 0.0,
+   "per_operator": {
+    "Zi": {
+     "status": "converged",
+     "peak_terms": 279,
+     "final_terms": 279,
+     "gates_total": 460,
+     "seconds": 0.06813883781433105
+    },
+    "Za": {
+     "status": "converged",
+     "peak_terms": 14,
+     "final_terms": 14,
+     "gates_total": 460,
+     "seconds": 0.07286739349365234
+    },
+    "ZiZa": {
+     "status": "converged",
+     "peak_terms": 3906,
+     "final_terms": 3906,
+     "gates_total": 460,
+     "seconds": 0.19433116912841797
+    }
+   },
+   "ev": {
+    "Zi": 0.477911776029078,
+    "Za": -0.7115934475171158,
+    "ZiZa": -0.3400788883135593
+   }
+  }
+ }
+}

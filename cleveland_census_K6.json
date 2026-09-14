@@ -1,0 +1,75 @@
+{
+ "K": 6,
+ "pair": [
+  28,
+  7
+ ],
+ "budget": 20000000,
+ "gates": 1332,
+ "results": {
+  "3e-05": {
+   "diverged": false,
+   "C": 0.00012758257274146645,
+   "per_operator": {
+    "Zi": {
+     "status": "converged",
+     "peak_terms": 11917,
+     "final_terms": 11793,
+     "gates_total": 1332,
+     "seconds": 4.071758508682251
+    },
+    "Za": {
+     "status": "converged",
+     "peak_terms": 93,
+     "final_terms": 93,
+     "gates_total": 1332,
+     "seconds": 0.2879822254180908
+    },
+    "ZiZa": {
+     "status": "converged",
+     "peak_terms": 71633,
+     "final_terms": 71633,
+     "gates_total": 1332,
+     "seconds": 36.39988398551941
+    }
+   },
+   "ev": {
+    "Zi": 0.2657471550186592,
+    "Za": -0.40970301002527576,
+    "ZiZa": -0.10874982674405677
+   }
+  },
+  "1e-05": {
+   "diverged": false,
+   "C": -3.0117636388535263e-05,
+   "per_operator": {
+    "Zi": {
+     "status": "converged",
+     "peak_terms": 22886,
+     "final_terms": 22542,
+     "gates_total": 1332,
+     "seconds": 7.184133052825928
+    },
+    "Za": {
+     "status": "converged",
+     "peak_terms": 136,
+     "final_terms": 136,
+     "gates_total": 1332,
+     "seconds": 0.3413727283477783
+    },
+    "ZiZa": {
+     "status": "converged",
+     "peak_terms": 143687,
+     "final_terms": 143687,
+     "gates_total": 1332,
+     "seconds": 73.25449633598328
+    }
+   },
+   "ev": {
+    "Zi": 0.26570916331906624,
+    "Za": -0.4096867728635245,
+    "ZiZa": -0.10888764727684397
+   }
+  }
+ }
+}
