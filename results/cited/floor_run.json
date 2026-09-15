@@ -1,0 +1,232 @@
+[
+ {
+  "target": "KRAS_G12C",
+  "floors": {
+   "geo_dist": {
+    "auc": 0.689,
+    "p": 0.0015
+   },
+   "euclid": {
+    "auc": 0.726,
+    "p": 0.0005
+   },
+   "closeness": {
+    "auc": 0.594,
+    "p": 0.0615
+   },
+   "betweenness": {
+    "auc": 0.578,
+    "p": 0.0905
+   },
+   "degree": {
+    "auc": 0.586,
+    "p": 0.0735
+   },
+   "hydro": {
+    "auc": 0.423,
+    "p": 0.8911
+   },
+   "burial": {
+    "auc": 0.578,
+    "p": 0.1129
+   },
+   "hydro_x_bur": {
+    "auc": 0.496,
+    "p": 0.5232
+   }
+  },
+  "quantum": {
+   "M_res": 0.625,
+   "M_2x_chem": 0.532,
+   "M_sus": 0.352,
+   "M_sus_chem": 0.511
+  },
+  "best_floor": "euclid",
+  "best_quantum": "M_res",
+  "delta": -0.101
+ },
+ {
+  "target": "BCR_ABL1",
+  "floors": {
+   "geo_dist": {
+    "auc": 0.577,
+    "p": 0.0765
+   },
+   "euclid": {
+    "auc": 0.444,
+    "p": 0.8401
+   },
+   "closeness": {
+    "auc": 0.812,
+    "p": 0.0005
+   },
+   "betweenness": {
+    "auc": 0.726,
+    "p": 0.0005
+   },
+   "degree": {
+    "auc": 0.676,
+    "p": 0.001
+   },
+   "hydro": {
+    "auc": 0.765,
+    "p": 0.0005
+   },
+   "burial": {
+    "auc": 0.732,
+    "p": 0.0005
+   },
+   "hydro_x_bur": {
+    "auc": 0.818,
+    "p": 0.0005
+   }
+  },
+  "quantum": {
+   "M_res": 0.475,
+   "M_2x_chem": 0.472,
+   "M_sus": 0.804,
+   "M_sus_chem": 0.757
+  },
+  "best_floor": "hydro_x_bur",
+  "best_quantum": "M_sus",
+  "delta": -0.014
+ },
+ {
+  "target": "CARDIAC_MYOSIN",
+  "floors": {
+   "geo_dist": {
+    "auc": 0.63,
+    "p": 0.002
+   },
+   "euclid": {
+    "auc": 0.64,
+    "p": 0.001
+   },
+   "closeness": {
+    "auc": 0.828,
+    "p": 0.0005
+   },
+   "betweenness": {
+    "auc": 0.538,
+    "p": 0.2129
+   },
+   "degree": {
+    "auc": 0.588,
+    "p": 0.036
+   },
+   "hydro": {
+    "auc": 0.465,
+    "p": 0.7481
+   },
+   "burial": {
+    "auc": 0.676,
+    "p": 0.0005
+   },
+   "hydro_x_bur": {
+    "auc": 0.569,
+    "p": 0.077
+   }
+  },
+  "quantum": {
+   "M_res": 0.708,
+   "M_2x_chem": 0.61,
+   "M_sus": 0.631,
+   "M_sus_chem": 0.507
+  },
+  "best_floor": "closeness",
+  "best_quantum": "M_res",
+  "delta": -0.12
+ },
+ {
+  "target": "GLUCOKINASE",
+  "floors": {
+   "geo_dist": {
+    "auc": 0.735,
+    "p": 0.0005
+   },
+   "euclid": {
+    "auc": 0.817,
+    "p": 0.0005
+   },
+   "closeness": {
+    "auc": 0.835,
+    "p": 0.0005
+   },
+   "betweenness": {
+    "auc": 0.693,
+    "p": 0.0005
+   },
+   "degree": {
+    "auc": 0.73,
+    "p": 0.0005
+   },
+   "hydro": {
+    "auc": 0.64,
+    "p": 0.001
+   },
+   "burial": {
+    "auc": 0.788,
+    "p": 0.0005
+   },
+   "hydro_x_bur": {
+    "auc": 0.753,
+    "p": 0.0005
+   }
+  },
+  "quantum": {
+   "M_res": 0.827,
+   "M_2x_chem": 0.886,
+   "M_sus": 0.782,
+   "M_sus_chem": 0.767
+  },
+  "best_floor": "closeness",
+  "best_quantum": "M_2x_chem",
+  "delta": 0.051
+ },
+ {
+  "target": "CDK2",
+  "floors": {
+   "geo_dist": {
+    "auc": 0.708,
+    "p": 0.001
+   },
+   "euclid": {
+    "auc": 0.781,
+    "p": 0.0005
+   },
+   "closeness": {
+    "auc": 0.424,
+    "p": 0.8836
+   },
+   "betweenness": {
+    "auc": 0.567,
+    "p": 0.1469
+   },
+   "degree": {
+    "auc": 0.544,
+    "p": 0.2549
+   },
+   "hydro": {
+    "auc": 0.603,
+    "p": 0.057
+   },
+   "burial": {
+    "auc": 0.423,
+    "p": 0.8906
+   },
+   "hydro_x_bur": {
+    "auc": 0.525,
+    "p": 0.3273
+   }
+  },
+  "quantum": {
+   "M_res": 0.868,
+   "M_2x_chem": 0.77,
+   "M_sus": 0.434,
+   "M_sus_chem": 0.625
+  },
+  "best_floor": "euclid",
+  "best_quantum": "M_res",
+  "delta": 0.087
+ }
+]

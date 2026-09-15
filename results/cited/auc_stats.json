@@ -1,0 +1,152 @@
+[
+ {
+  "target": "KRAS_G12C",
+  "n_pocket_res": 28,
+  "metrics": {
+   "M_res": {
+    "auc": 0.625,
+    "p_auc": 0.0225,
+    "first_hit_rank": 1,
+    "p_rank": 0.4283
+   },
+   "M_2x_chem": {
+    "auc": 0.532,
+    "p_auc": 0.2969,
+    "first_hit_rank": 1,
+    "p_rank": 0.3558
+   },
+   "M_sus": {
+    "auc": 0.352,
+    "p_auc": 0.993,
+    "first_hit_rank": 2,
+    "p_rank": 0.5717
+   },
+   "M_sus_chem": {
+    "auc": 0.511,
+    "p_auc": 0.4253,
+    "first_hit_rank": 1,
+    "p_rank": 0.3768
+   }
+  }
+ },
+ {
+  "target": "BCR_ABL1",
+  "n_pocket_res": 32,
+  "metrics": {
+   "M_res": {
+    "auc": 0.475,
+    "p_auc": 0.6847,
+    "first_hit_rank": 3,
+    "p_rank": 0.5087
+   },
+   "M_2x_chem": {
+    "auc": 0.472,
+    "p_auc": 0.6842,
+    "first_hit_rank": 6,
+    "p_rank": 1.0
+   },
+   "M_sus": {
+    "auc": 0.804,
+    "p_auc": 0.0005,
+    "first_hit_rank": 2,
+    "p_rank": 0.2919
+   },
+   "M_sus_chem": {
+    "auc": 0.757,
+    "p_auc": 0.0005,
+    "first_hit_rank": 1,
+    "p_rank": 0.2494
+   }
+  }
+ },
+ {
+  "target": "CARDIAC_MYOSIN",
+  "n_pocket_res": 38,
+  "metrics": {
+   "M_res": {
+    "auc": 0.708,
+    "p_auc": 0.0005,
+    "first_hit_rank": 1,
+    "p_rank": 0.0195
+   },
+   "M_2x_chem": {
+    "auc": 0.61,
+    "p_auc": 0.0135,
+    "first_hit_rank": 1,
+    "p_rank": 0.0185
+   },
+   "M_sus": {
+    "auc": 0.631,
+    "p_auc": 0.0035,
+    "first_hit_rank": 1,
+    "p_rank": 0.016
+   },
+   "M_sus_chem": {
+    "auc": 0.507,
+    "p_auc": 0.4338,
+    "first_hit_rank": 1,
+    "p_rank": 0.0185
+   }
+  }
+ },
+ {
+  "target": "GLUCOKINASE",
+  "n_pocket_res": 40,
+  "metrics": {
+   "M_res": {
+    "auc": 0.827,
+    "p_auc": 0.0005,
+    "first_hit_rank": 1,
+    "p_rank": 0.1699
+   },
+   "M_2x_chem": {
+    "auc": 0.886,
+    "p_auc": 0.0005,
+    "first_hit_rank": 1,
+    "p_rank": 0.2939
+   },
+   "M_sus": {
+    "auc": 0.782,
+    "p_auc": 0.0005,
+    "first_hit_rank": 1,
+    "p_rank": 0.1884
+   },
+   "M_sus_chem": {
+    "auc": 0.767,
+    "p_auc": 0.0005,
+    "first_hit_rank": 3,
+    "p_rank": 0.5512
+   }
+  }
+ },
+ {
+  "target": "CDK2",
+  "n_pocket_res": 23,
+  "metrics": {
+   "M_res": {
+    "auc": 0.868,
+    "p_auc": 0.0005,
+    "first_hit_rank": 1,
+    "p_rank": 0.1599
+   },
+   "M_2x_chem": {
+    "auc": 0.77,
+    "p_auc": 0.0005,
+    "first_hit_rank": 1,
+    "p_rank": 0.1969
+   },
+   "M_sus": {
+    "auc": 0.434,
+    "p_auc": 0.8391,
+    "first_hit_rank": 4,
+    "p_rank": 0.6732
+   },
+   "M_sus_chem": {
+    "auc": 0.625,
+    "p_auc": 0.0215,
+    "first_hit_rank": 3,
+    "p_rank": 0.5837
+   }
+  }
+ }
+]
