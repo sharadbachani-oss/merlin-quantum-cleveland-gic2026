@@ -136,7 +136,7 @@ Merlin Quantum is the quantum division of Merlin Digital (50+ technology FTE): S
 
 ### Appendix B — Method notes
 
-No force-field parameter is fitted: site energies at the kT rung, pairwise forces Coulomb plus the derived 0.21 eV hydrogen-bond quantum (CP-MP2 water dimer to +0.23%). The K-sweep is a brickwork Trotter step, one coupling layer per sweep, so the causal front advances one lattice step per K and the null set (pairs outside the front) is known before the run. Public code, preregistrations and archived counts: https://github.com/sharadbachani-oss/merlin-quantum-cleveland-gic2026
+No force-field parameter is fitted: site energies at the kT rung, pairwise forces Coulomb plus the derived 0.21 eV hydrogen-bond quantum (CP-MP2 water dimer to +0.23%). The K-sweep is a brickwork Trotter step, one coupling layer per sweep, so the causal front advances one lattice step per K and the null set (pairs outside the front) is known before the run. Public code, frozen protocols and archived counts: https://github.com/sharadbachani-oss/merlin-quantum-cleveland-gic2026
 
 ### Appendix C — Claim ledger
 
