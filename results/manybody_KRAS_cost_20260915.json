@@ -1,0 +1,48 @@
+{
+ "card": "laptop cost and ranking measurement for the many-body response on KRAS_G12C (exploratory)",
+ "machine": "DESKTOP-8AEHV1A",
+ "date": "2026-09-15",
+ "workers": 6,
+ "term_budget": 5000000,
+ "eps": 1e-05,
+ "target": {
+  "name": "KRAS_G12C",
+  "residues": 169,
+  "edges": 607,
+  "active_cells": 24
+ },
+ "baselines": {
+  "collective_auc": 0.6373626373626373,
+  "m_res_auc": 0.5921855921855922,
+  "best_structure_floor": 0.7261904761904762,
+  "best_floor_name": "euclid"
+ },
+ "points": [
+  {
+   "K": 2,
+   "sz": 1.0,
+   "status": "ok",
+   "auc_best": 0.5845543345543346,
+   "auc_signed": 0.4258241758241758,
+   "auc_abs": 0.5470085470085471,
+   "p_perm": 0.08595702148925537,
+   "peak_terms": 3545050,
+   "imag_meter": 0.0008309452133015826,
+   "wall_s": 4221.469423532486,
+   "cpu_hours_approx": 7.0,
+   "reading": "below both one-body proxies and the structure-only floor; truncation marginally active (meter 8.3e-4 against a 1e-3 tolerance)"
+  },
+  {
+   "K": 4,
+   "sz": 1.0,
+   "status": "stopped_incomplete",
+   "wall_s": 11520,
+   "cpu_seconds_at_stop": 69196,
+   "cpu_hours_at_stop": 19.2,
+   "layers_note": "one grid point, six workers fully busy for 3.2 h each",
+   "reading": "did not complete; the cost of truncated classical propagation at this budget rises steeply from depth 2 to depth 4 on this network"
+  }
+ ],
+ "scope": "A cost measurement on commodity hardware at a fixed 5e6-term truncation budget, not a statement of classical intractability: a 32-core workstation at a larger budget, or a better algorithm, reaches further. What it supports is that depth 2 is the reachable rung on this laptop and that the depth where the many-body ranking could overtake the one-body proxies was not reached here.",
+ "supersedes_nothing": true
+}
